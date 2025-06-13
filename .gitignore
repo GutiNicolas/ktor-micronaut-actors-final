@@ -25,3 +25,39 @@ replay_pid*
 
 # Kotlin Gradle plugin data, see https://kotlinlang.org/docs/whatsnew20.html#new-directory-for-kotlin-data-in-gradle-projects
 .kotlin/
+
+
+# Kotlin/Java build output
+/build/
+/out/
+
+# IntelliJ IDEA project files
+.idea/
+*.iml
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Gradle specific
+.gradle/
+**/build/
+!gradle-wrapper.properties
+!gradle-wrapper.jar
+
+# Ignore the wrapper scripts if explicitly excluded
+gradlew
+gradlew.bat
+gradle/wrapper/
+
+# Logs
+*.log
+
+# Kotlin specific
+*.class
+*.jar
+*.war
+*.ear
+
+# Ignore environment files
+.env
